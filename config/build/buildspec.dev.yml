@@ -8,7 +8,7 @@ phases:
     commands:
       - echo Installing serverless CLI
       - npm i -g serverless
-      - cho Installing npm dependencies of notes service
+      - echo Installing npm dependencies of notes service
       - npm install
   build:
     on-failure: ABORT
